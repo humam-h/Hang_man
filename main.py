@@ -10,7 +10,7 @@ word_length = len(chosen_word)
 end_of_game = False
 lives = 6
 print(f'Pssst, the solution is {chosen_word}.')
-
+print("Game explain:\nYou should guess the correct word.\nIf you make 6 mistakes you will Hung!!")
 #Create blanks
 display = []
 for _ in range(word_length):
